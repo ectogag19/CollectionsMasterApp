@@ -38,6 +38,7 @@ namespace CollectionsMasterConsoleUI
             Array.Reverse(numbers);
 
             Console.WriteLine("All Numbers Reversed:");
+            NumberPrinter(numbers);
 
             Console.WriteLine("---------REVERSE CUSTOM------------");
 
@@ -190,6 +191,7 @@ namespace CollectionsMasterConsoleUI
                 int temp = array[start];
                 array[start] = array[end];
                 array[end] = temp;
+                
                 start++;
                 end--;
             }
