@@ -38,9 +38,9 @@ namespace CollectionsMasterConsoleUI
             Array.Reverse(numbers);
 
             Console.WriteLine("All Numbers Reversed:");
-            NumberPrinter(numbers);
 
             Console.WriteLine("---------REVERSE CUSTOM------------");
+            NumberPrinter(numbers);
 
             Console.WriteLine("-------------------");
 
